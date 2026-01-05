@@ -1,0 +1,65 @@
+@media only screen and (min-width:200px) and (max-width:575px) {
+    .btn-outer {
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        background-color: white;
+        left: 0px;
+        justify-content: center !important;
+    }
+    .whatsappbtn,.call{
+        padding: 7px 15px;
+        font-size: 14px;
+    }
+    .bannerContent h1{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 32px;
+    }
+    .bannerContent br{
+        display: none;
+    }
+    .bannerContent p, .bannerContent ul li{
+        font-size: 16px;
+    }
+    .bannerContentBtn {
+        flex-direction: column;
+    }
+    .bannerContentBtn button{
+        width: 100%;
+    }
+    .bannerForm{
+    padding: 40px;
+    }
+    .highlights-section h2{
+    font-size: 28px;
+    }
+    .certification-section h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .certification-section p {
+        text-align: center;
+    }
+    .cert-item {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px !important;
+    }
+    .cert-icon-box {
+        margin: 0 auto;
+    }
+    .certification-section .btn-gradient {
+        display: block;
+        margin: 0 auto;
+    }
+
+
+}
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1170px;
+    } 
+}
